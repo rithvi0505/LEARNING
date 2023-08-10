@@ -1,0 +1,33 @@
+
+public class Typecast1 {
+
+	public static void main(String[] args) {
+		char a='@';
+		
+		
+		//byte b;
+		//b=a;
+		//System.out.println(b);
+		
+		short b=a;   
+		System.out.println(b); 
+		
+		//int b=a;               //Implicit type casting
+		//System.out.println(b);
+		
+		//long b=a;                  //Implicit Type casting
+		//System.out.println(b);
+		
+		//float b=a;                   //Implicit Type casting
+		//System.out.println(b);
+		
+		//double b=a;					//Implicit Type casting
+		//System.out.println(b);
+		
+		//boolean b=(boolean)a;           //Not Possible
+		//System.out.println(b);
+		
+
+	}
+
+}
